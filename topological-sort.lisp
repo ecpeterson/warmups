@@ -4,7 +4,7 @@
  * H is a sub-DAG of G, represented as a sublist.
  * T-list is a topologically sorted list of vertices in G (possibly intersecting H).
 
-F is then determined by the following properties:
+The limiting behavior of F is then determined by the following properties:
  * H' <= H gives a subgraph of H.
  * T' >= T gives a superset of T, and it remains topologically sorted against G.
  * The *only* fixed points of F are the triples (G, nil, T)."
